@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        '2xl': '1650px',
+      },
       colors: {
         primary: "#FA504D",
         dark: "#2E2F38",

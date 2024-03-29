@@ -17,7 +17,7 @@ export default {
         heading: ["Belgrano", ...defaultTheme.fontFamily.sans]
       },
         maxWidth: {
-          "8xl": "98.938rem",
+          "8xl": "104rem",
         },
   },
     plugins: [],

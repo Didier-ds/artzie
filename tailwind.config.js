@@ -22,6 +22,9 @@ export default {
         maxWidth: {
           "8xl": "104rem",
         },
+      backgroundImage: {
+        "pattern": "url('/images/background.svg')",
+      },
   },
     plugins: [],
   }

@@ -11,7 +11,7 @@
   </head>
   <body>
     <div id="app">
-      <div class="relative bg-white">
+      <div class="relative bg-white bg-contain bg-pattern overflow-hidden">
         <header class="absolute mx-auto max-w-8xl px-8 lg:px-0 inset-x-0 top-0 z-50">
           <nav class="flex items-center justify-between lg:grid lg:grid-cols-12 lg:px-8" aria-label="Global">
             <div class="flex justify-between items-center lg:col-span-7 lg:max-w-[45.875rem] shrink-0 flex-1">
@@ -43,7 +43,7 @@
           </nav>
         </header>
         <div class="mx-auto max-w-8xl xl:grid lg:grid-cols-12 lg:min-h-screen lg:gap-x-8 xl:px-8">
-          <div class="px-8 lg:col-span-7 lg:px-0 pt-44 py-10 lg:pt-[12.5rem]">
+          <div class="px-8 relative lg:col-span-7 lg:px-0 pt-44 py-10 lg:pt-[12.5rem]">
             <div class="mx-auto lg:flex lg:flex-col lg:justify-center lg:items-center lg:text-center xl:block xl:text-left lg:mx-0">
               <h1 class="text-5xl leading-[4rem] lg:text-7xl lg:leading-[96px] text-dark font-heading">The largest NFT market with exceptional items on the bid</h1>
               <p class="mt-4 text-lg lg:text-2xl leading-10 font-normal text-gray-1">Collectible and non-fungible tokens in your hands</p>
@@ -67,9 +67,13 @@
                       <div class="relative border border-gray-1 group cursor-pointer max-w-[408px] overflow-hidden">
                         <img src="/images/img2.png" alt="" class="w-full scale-x-[0.98] scale-y-[0.96] relative duration-300 delay-75 group-hover:scale-105" />
                       </div>
-                   
                 </div>
               </div>
+
+            <span class="absolute bg-cyan-500 opacity-20 filter blur-[100px] w-[485px] h-[485px] left-0 top-0 transform translate-x-[-78%] translate-y-[-20%] rounded-full"></span>
+
+            <span class="absolute bg-red-500 opacity-20 filter blur-[100px] w-[400px] h-[400px] left-[808px] top-0 transform translate-x-[-50%] translate-y-[-50%] rounded-full"></span>
+
           </div>
           <div class="relative overflow-hidden bg-dark 2xl:bg-transparent lg:col-span-5 lg:-mr-8 2xl:absolute 2xl:inset-0 2xl:left-[56.25%] 2xl:mr-0">
             <span class="aspect-[3/2] w-full bg-dark object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"></span>
